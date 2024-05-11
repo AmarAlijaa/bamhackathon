@@ -1,0 +1,26 @@
+/* root.css - Comprehensive CSS Root Custom Properties */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+/* Color Scheme
+ * Usage: Use these for primary UI elements like buttons, links, etc.
+ */
+ :root {
+    --primary-color: #2a9df4; /* Example: primary UI elements */
+    --secondary-color: #8cc63f; /* Example: secondary UI elements */
+    --tertiary-color: #5a6268; /* Example: tertiary UI elements or accents */ 
+    --success-color: #ffd700; /* Example: Success messages, icons */
+    --info-color: #f26522; /* Example: Informational alerts or messages */
+    --warning-color: #ffc107; /* Example: Warning alerts or notifications */
+    --danger-color: #ed1c24; /* Example: Error messages, danger buttons  soft red*/ 
+    --light-color: #967adc ;/* Example: Light backgrounds, cards */
+    --dark-color: #D0E4F7; /* Example: Dark elements, text on light bg */
+
+   
+
+    /* Background Colors
+     * Usage: Use these for different background areas of your site.
+     */
+    --background-color: #D0E4F7;
+    --foreground-color: #ffffff;
+    --body-background-color: #e9ecef;
+
+}
